@@ -1,4 +1,3 @@
-console.log("conectado")
 let puntos = 0;
 let pregunta1 = prompt("Anota la suma de las fechas de nacimiento de todos los miembros de BLACKPINK. (en formato MMDD)");
 
@@ -22,7 +21,7 @@ for (let intento = 1; intento <= 3; intento++) {
         } else if (["whistle", "whistle", "휘파람"].includes(pregunta2.toLowerCase())) {
             alert("¡Respuesta correcta!");
             puntos++;
-            break;  // Si la respuesta es correcta, salimos del bucle.
+            break;  
         } else {
             alert("Respuesta incorrecta.");
             puntos--;
@@ -30,19 +29,4 @@ for (let intento = 1; intento <= 3; intento++) {
     }
 }
 
-
-/*let pregunta3 = prompt("");
-
-if (pregunta3 !== null) {
-    if (!/^[a-zA-Z\s]+$/.test(pregunta3))
-        alert("Respuesta incorrecta. Debes responder verdadero o falso.")
-    else if (pregunta3.toLowerCase() !== "Falso", "FALSO", "falso") {
-        alert("¡Respuesta correcta!");
-        puntos++;
-    } else {
-        alert("Respuesta incorrecta");
-        puntos--;
-    }
-}*/
-
-alert(puntos + "/3 aciertos");
+alert(puntos + "/2 aciertos");

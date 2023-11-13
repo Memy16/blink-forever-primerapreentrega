@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+.navbar a{
+    text-decoration: none;
+    color: #f4a7ba;
+    font-family: inter-medium;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    gap: .9375rem;
+    align-items: center;
+}
 body{
     background-color: #f4a7ba;
 }
